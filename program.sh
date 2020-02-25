@@ -7,7 +7,7 @@ then
 		echo "-h		--help			display the list of arguments and their description"
 		echo "-r		--reset			reset config"
 		echo "-c 		--config		display actual config"
-		echo "-c <conf> 	--config=<conf> 	change config"
+		echo "-c <conf> 	--config <conf> 	change config"
 	elif [ $1 = -r ] || [ $1 = --reset ] 
 	then
 		echo "reset"
